@@ -1,9 +1,5 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-
-import Footer from '@/components/common/Footer'
-import FloatingWhatsApp from '@/components/common/FloatingWhatsApp'
 import FAQ from '@/components/common/FAQ'
 
 import Hero from '@/components/home/Hero'
@@ -15,22 +11,6 @@ import Testimonials from '@/components/home/Testimonials'
 import Contact from '@/components/common/Contact'
 
 export default function Home() {
-  const [isScrolled, setIsScrolled] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10)
-    }
-
-    window.addEventListener('scroll', handleScroll)
-
-    return () =>
-      window.removeEventListener(
-        'scroll',
-        handleScroll
-      )
-  }, [])
-
   const homeFaqs = [
     {
       question: 'What services do you offer?',
@@ -85,7 +65,6 @@ export default function Home() {
           description="Tell us about your project and we'll get back to you within 24 hours."
         />
       </main>
-      <FloatingWhatsApp />
     </div>
   )
 }

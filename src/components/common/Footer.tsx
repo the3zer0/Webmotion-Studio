@@ -125,7 +125,7 @@ export default function Footer() {
                 <li>
 
                   <Link
-                    href="/about"
+                    href="/#about"
                     className="text-zinc-400 hover:text-[#ff6b35] transition"
                   >
                     About Us

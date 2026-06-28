@@ -4,21 +4,51 @@ import FloatingWhatsApp from '@/components/common/FloatingWhatsApp'
 import Footer from '@/components/common/Footer'
 import '../globals.css'
 
-export const metadata = {
-  title: 'Webmotion Studio',
-
+export const metadata: Metadata = {
+  title: {
+    default: 'Webmotion Studio — Graphics Design, Video Editing & Web Development',
+    template: '%s | Webmotion Studio',
+  },
   description:
-    'Creative studio offering Video Editing, Graphics Design and Web Development services.',
-
+    'Webmotion Studio is a creative agency offering premium Video Editing, Graphics Design, and Web Development services for creators, brands, and businesses worldwide.',
   keywords: [
     'Video Editing',
     'Graphics Design',
     'Web Development',
     'Webmotion Studio',
-    'Bangladeshi Agency',
+    'Creative Agency',
+    'Bangladesh',
+    'Logo Design',
+    'Brand Identity',
+    'Social Media Graphics',
   ],
-} as Metadata
-
+  authors: [{ name: 'Webmotion Studio' }],
+  creator: 'Webmotion Studio',
+  metadataBase: new URL('https://the3zer0.github.io/Webmotion-Studio'),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://the3zer0.github.io/Webmotion-Studio',
+    siteName: 'Webmotion Studio',
+    title: 'Webmotion Studio — Graphics Design, Video Editing & Web Development',
+    description:
+      'Creative agency offering premium Video Editing, Graphics Design, and Web Development services for creators, brands, and businesses worldwide.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Webmotion Studio — Graphics Design, Video Editing & Web Development',
+    description:
+      'Creative agency offering premium Video Editing, Graphics Design, and Web Development services.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+}
 
 export default function RootLayout({
   children,
