@@ -130,7 +130,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/resume/web-developer-resume.pdf"
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume/web-developer-resume.pdf`}
 
               target="_blank"
 

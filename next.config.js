@@ -7,6 +7,9 @@ const nextConfig = {
   },
   basePath: "/Webmotion-Studio",
   assetPrefix: "/Webmotion-Studio/",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/Webmotion-Studio",
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

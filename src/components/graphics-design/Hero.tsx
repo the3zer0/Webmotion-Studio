@@ -120,7 +120,7 @@ return ( <section id="about" className="relative overflow-hidden bg-[#111111]"> 
   </a>
 
   <a
-    href="/resume/graphics-designer-resume.pdf"
+    href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume/graphics-designer-resume.pdf`}
     target="_blank"
     rel="noopener noreferrer"
     className="

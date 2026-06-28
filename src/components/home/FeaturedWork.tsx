@@ -26,7 +26,7 @@ const portfolioProjects = [
       'Motion Design',
     ],
 
-    link: '/video-editing#portfolio',
+    link: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/video-editing#portfolio`,
   },
 
   {
@@ -51,7 +51,7 @@ const portfolioProjects = [
       'Social Media',
     ],
 
-    link: '/graphics-design#featured-work',
+    link: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/graphics-design#featured-work`,
   },
 
   {
@@ -79,7 +79,7 @@ const portfolioProjects = [
       'SEO',
     ],
 
-    link: '/web-dev#featured-work',
+    link: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/web-dev#featured-work`,
   },
 ]
 

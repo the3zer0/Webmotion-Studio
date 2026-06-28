@@ -100,7 +100,7 @@ export default function Hero() {
   </a>
 
   <a
-    href="/resume/video-editor-resume.pdf"
+    href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume/video-editor-resume.pdf`}
     target="_blank"
     rel="noopener noreferrer"
     className="btn-secondary"
