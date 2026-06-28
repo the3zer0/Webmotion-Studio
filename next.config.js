@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
+  output: "export",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
-}
+  basePath: "/Webmotion-Studio",
+  assetPrefix: "/Webmotion-Studio/",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
