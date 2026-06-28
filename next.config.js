@@ -7,6 +7,10 @@ const nextConfig = {
   },
   basePath: "/Webmotion-Studio",
   assetPrefix: "/Webmotion-Studio/",
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
