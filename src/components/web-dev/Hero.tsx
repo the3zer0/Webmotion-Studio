@@ -197,6 +197,7 @@ export default function Hero() {
 
               <Image
                 src={assetPath('/projects/maowa-me.jpg')}
+                loading="eager"
 
                 alt="maowa.me"
 

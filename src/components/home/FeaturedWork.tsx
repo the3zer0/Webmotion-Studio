@@ -230,6 +230,7 @@ export default function Portfolio() {
 
                   <Image
                     src={project.image}
+                    loading="eager"
                     alt={project.title}
                     fill
                     className="
@@ -316,6 +317,7 @@ export default function Portfolio() {
 
                     <Image
                       src={project.icon}
+                      loading="eager"
                       alt={project.title}
                       width={16}
                       height={16}

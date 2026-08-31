@@ -1,43 +1,43 @@
 'use client'
 
 import { useState } from 'react'
-import { assetPath } from '@/lib/paths'
+import { publicAssetPath } from '@/lib/paths'
 
 const projects = [
 {
 title: 'Typography in Motion',
 category: 'Practice',
-image: assetPath('/typo.png'),
+image: publicAssetPath('/typo.png'),
 videoId: 'QozVu0nCeb8',
 },
 {
 title: 'Typography',
 category: 'Practice',
-image: assetPath('/p.png'),
+image: publicAssetPath('/p.png'),
 videoId: 'ACrOPLjY4xA',
 },
 {
 title: 'Podcast On Client Hunting',
 category: 'Podcast',
-image: assetPath('/client.png'),
+image: publicAssetPath('/client.png'),
 videoId: 'HnvYalV-BOU',
 },
 {
 title: 'AI Advertising Short',
 category: 'Advertising',
-image: assetPath('/ai1.png'),
+image: publicAssetPath('/ai1.png'),
 videoId: 'ZfNsTScUwpU',
 },
 {
 title: 'Cinematic Motion Graphics',
 category: 'Practice',
-image: assetPath('/time.png'),
+image: publicAssetPath('/time.png'),
 videoId: 'cvcJGoWiTXs',
 },
 {
 title: 'Typography 2026',
 category: 'Practice',
-image: assetPath('/money.png'),
+image: publicAssetPath('/money.png'),
 videoId: '835u3xtpiyo',
 },
 ]
@@ -92,6 +92,7 @@ return (
             <div className="relative aspect-video overflow-hidden">
               <img
                 src={project.image}
+                loading="eager"
                 alt={project.title}
                 className="
                   h-full

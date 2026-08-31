@@ -92,6 +92,7 @@ export default function FloatingWhatsApp() {
       >
         <Image
           src={assetPath('/whatsapp.svg')}
+          loading="eager"
 
           alt="WhatsApp"
 

@@ -324,6 +324,7 @@ export default function Studio() {
 
               <Image
                 src={assetPath('/resume/gm.png')}
+                loading="eager"
                 alt="Webmotion Team"
                 width={1023}
                 height={1537}

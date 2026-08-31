@@ -223,6 +223,7 @@ export default function FeaturedWork() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src={project.image}
+                  loading="eager"
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -277,6 +278,7 @@ export default function FeaturedWork() {
           <div className="relative w-full max-w-7xl h-[90vh]">
             <Image
               src={selectedImage}
+              loading="eager"
               alt="Preview"
               fill
               className="object-contain"

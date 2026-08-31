@@ -350,6 +350,7 @@ export default function Footer() {
 
                 <Image
                   src={social.icon}
+                  loading="eager"
 
                   alt={social.name}
 

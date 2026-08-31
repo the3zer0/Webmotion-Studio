@@ -218,6 +218,7 @@ export default function TechStack() {
               >
                 <Image
                   src={tech.icon}
+                  loading="eager"
                   alt={tech.name}
                   width={52}
                   height={52}

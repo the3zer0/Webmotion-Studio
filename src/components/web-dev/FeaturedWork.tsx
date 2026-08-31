@@ -72,6 +72,7 @@ export default function FeaturedWork() {
               <div className="relative h-[420px] overflow-hidden">
                 <Image
                   src={project.image}
+                  loading="eager"
                   alt={project.title}
                   fill
                   className="
@@ -149,6 +150,7 @@ export default function FeaturedWork() {
             <div className="relative h-[70vh]">
               <Image
                 src={selectedProject.image}
+                loading="eager"
                 alt={selectedProject.title}
                 fill
                 className="object-contain"

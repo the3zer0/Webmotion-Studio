@@ -5,4 +5,6 @@ export function sitePath(path: string) {
   return `${basePath}${normalizedPath}`
 }
 
-export const assetPath = sitePath
+export const imagePath = sitePath
+export const publicAssetPath = sitePath
+export const assetPath = imagePath

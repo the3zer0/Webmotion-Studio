@@ -99,6 +99,7 @@ export default function Services() {
               >
                 <Image
                   src={service.icon}
+                  loading="eager"
                   alt={service.title}
                   width={52}
                   height={52}
