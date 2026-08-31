@@ -2,12 +2,13 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+import { assetPath } from '@/lib/paths'
 
 const projects = [
   {
     title: 'maowa.me',
     category: 'Creative Portfolio',
-    image: '/projects/maowa-me.jpg',
+    image: assetPath('/projects/maowa-me.jpg'),
     link: 'https://maowa.me',
     description:
       'Personal portfolio website built with React, Tailwind CSS, Framer Motion, and modern UI animations.',

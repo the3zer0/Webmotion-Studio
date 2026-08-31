@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 export default function FloatingWhatsApp() {
   const [isHovered, setIsHovered] = useState(false)
@@ -90,7 +91,7 @@ export default function FloatingWhatsApp() {
         "
       >
         <Image
-          src="/whatsapp.svg"
+          src={assetPath('/whatsapp.svg')}
 
           alt="WhatsApp"
 

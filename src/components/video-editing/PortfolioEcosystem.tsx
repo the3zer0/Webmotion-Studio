@@ -1,42 +1,43 @@
 'use client'
 
 import { useState } from 'react'
+import { assetPath } from '@/lib/paths'
 
 const projects = [
 {
 title: 'Typography in Motion',
 category: 'Practice',
-image: '/typo.png',
+image: assetPath('/typo.png'),
 videoId: 'QozVu0nCeb8',
 },
 {
 title: 'Typography',
 category: 'Practice',
-image: '/p.png',
+image: assetPath('/p.png'),
 videoId: 'ACrOPLjY4xA',
 },
 {
 title: 'Podcast On Client Hunting',
 category: 'Podcast',
-image: '/client.png',
+image: assetPath('/client.png'),
 videoId: 'HnvYalV-BOU',
 },
 {
 title: 'AI Advertising Short',
 category: 'Advertising',
-image: '/ai1.png',
+image: assetPath('/ai1.png'),
 videoId: 'ZfNsTScUwpU',
 },
 {
 title: 'Cinematic Motion Graphics',
 category: 'Practice',
-image: '/time.png',
+image: assetPath('/time.png'),
 videoId: 'cvcJGoWiTXs',
 },
 {
 title: 'Typography 2026',
 category: 'Practice',
-image: '/money.png',
+image: assetPath('/money.png'),
 videoId: '835u3xtpiyo',
 },
 ]

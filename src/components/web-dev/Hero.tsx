@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 import '../../styles/web-dev/hero.css'
 
@@ -130,7 +131,7 @@ export default function Hero() {
             </a>
 
             <a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume/web-developer-resume.pdf`}
+              href={assetPath('/resume/web-developer-resume.pdf')}
 
               target="_blank"
 
@@ -195,7 +196,7 @@ export default function Hero() {
             <div className="browser-image">
 
               <Image
-                src="/projects/maowa-me.jpg"
+                src={assetPath('/projects/maowa-me.jpg')}
 
                 alt="maowa.me"
 

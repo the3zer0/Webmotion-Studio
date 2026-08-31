@@ -1,43 +1,44 @@
 'use client'
 
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 const services = [
   {
     title: 'Short Form Content',
     description:
       'High-retention edits for Reels, Shorts, and TikTok designed to stop the scroll.',
-    icon: '/shorts.png',
+    icon: assetPath('/shorts.png'),
   },
   {
     title: 'Podcast Editing',
     description:
       'Multi-camera podcast edits with motion graphics, subtitles, and engaging pacing.',
-    icon: '/pd.png',
+    icon: assetPath('/pd.png'),
   },
   {
     title: 'Motion Graphics',
     description:
       'Dynamic animations, typography, and visual effects that elevate your content.',
-    icon: '/motion.png',
+    icon: assetPath('/motion.png'),
   },
   {
     title: 'YouTube Videos',
     description:
       'Long-form content optimized for watch time, storytelling, and audience retention.',
-    icon: '/play.png',
+    icon: assetPath('/play.png'),
   },
   {
     title: 'Commercial Ads',
     description:
       'Conversion-focused ads crafted for brands, products, and marketing campaigns.',
-    icon: '/ads.png',
+    icon: assetPath('/ads.png'),
   },
   {
     title: 'Personal Branding',
     description:
       'Content systems that help creators and founders build authority online.',
-    icon: '/personalbranding.png',
+    icon: assetPath('/personalbranding.png'),
   },
 ]
 

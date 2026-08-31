@@ -1,43 +1,44 @@
 'use client'
 
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 const services = [
   {
     title: 'Landing Pages',
     description:
       'High-converting landing pages built to generate leads and drive sales.',
-    icon: '/web/globe.svg',
+    icon: assetPath('/web/globe.svg'),
   },
   {
     title: 'Business Websites',
     description:
       'Professional websites that establish trust and strengthen your online presence.',
-    icon: '/web/briefcase.svg',
+    icon: assetPath('/web/briefcase.svg'),
   },
   {
     title: 'Portfolio Websites',
     description:
       'Showcase your work through modern, visually engaging portfolio experiences.',
-    icon: '/web/user.svg',
+    icon: assetPath('/web/user.svg'),
   },
   {
     title: 'E-Commerce Stores',
     description:
       'Conversion-focused online stores optimized for growth and performance.',
-    icon: '/web/shopping-cart.svg',
+    icon: assetPath('/web/shopping-cart.svg'),
   },
   {
     title: 'Web Applications',
     description:
       'Custom web solutions tailored to your business and workflow requirements.',
-    icon: '/web/monitor.svg',
+    icon: assetPath('/web/monitor.svg'),
   },
   {
     title: 'Website Redesign',
     description:
       'Transform outdated websites into fast, modern, and user-friendly experiences.',
-    icon: '/web/refresh.svg',
+    icon: assetPath('/web/refresh.svg'),
   },
 ]
 

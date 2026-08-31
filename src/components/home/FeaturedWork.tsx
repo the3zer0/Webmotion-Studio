@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { ArrowRight, ExternalLink } from 'lucide-react'
+import { assetPath, sitePath } from '@/lib/paths'
 
 const portfolioProjects = [
   {
@@ -10,11 +11,11 @@ const portfolioProjects = [
 
     title: 'Video Editing',
 
-    icon: '/resume/vd.png',
+    icon: assetPath('/resume/vd.png'),
 
     category: 'Video Production',
 
-    image: '/video.png',
+    image: assetPath('/video.png'),
 
     description:
       'Cinematic edits, motion graphics, and storytelling-focused content.',
@@ -26,7 +27,7 @@ const portfolioProjects = [
       'Motion Design',
     ],
 
-    link: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/video-editing#portfolio`,
+    link: sitePath('/video-editing#portfolio'),
   },
 
   {
@@ -34,11 +35,11 @@ const portfolioProjects = [
 
     title: 'Graphics Design',
 
-    icon: '/resume/gr.png',
+    icon: assetPath('/resume/gr.png'),
 
     category: 'Visual Identity',
 
-    image: '/graphics-project/graphics.jpg',
+    image: assetPath('/graphics-project/graphics.jpg'),
 
     description:
       'Logos, social media creatives, thumbnails, and brand assets.',
@@ -51,7 +52,7 @@ const portfolioProjects = [
       'Social Media',
     ],
 
-    link: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/graphics-design#featured-work`,
+    link: sitePath('/graphics-design#featured-work'),
   },
 
   {
@@ -59,11 +60,11 @@ const portfolioProjects = [
 
     title: 'Web Development',
 
-    icon: '/resume/web.png',
+    icon: assetPath('/resume/web.png'),
 
     category: 'Digital Experience',
 
-    image: '/web/web.png',
+    image: assetPath('/web/web.png'),
 
     description:
       'Modern websites built for speed, SEO, and conversion.',
@@ -79,7 +80,7 @@ const portfolioProjects = [
       'SEO',
     ],
 
-    link: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/web-dev#featured-work`,
+    link: sitePath('/web-dev#featured-work'),
   },
 ]
 

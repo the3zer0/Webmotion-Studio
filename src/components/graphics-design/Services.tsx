@@ -1,43 +1,44 @@
 'use client'
 
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 const services = [
   {
     title: 'Brand Identity',
     description:
       'Logo systems, color palettes, typography, and visual guidelines that build memorable brands.',
-    icon: '/brand.png',
+    icon: assetPath('/brand.png'),
   },
   {
     title: 'Social Media Design',
     description:
       'High-performing social creatives designed to increase engagement and strengthen brand presence.',
-    icon: '/social.png',
+    icon: assetPath('/social.png'),
   },
   {
     title: 'Advertising Creatives',
     description:
       'Conversion-focused ad designs crafted for campaigns, promotions, and product launches.',
-    icon: '/ads.png',
+    icon: assetPath('/ads.png'),
   },
   {
     title: 'Poster Design',
     description:
       'Modern poster concepts for events, brands, announcements, and promotional campaigns.',
-    icon: '/poster.png',
+    icon: assetPath('/poster.png'),
   },
   {
     title: 'Presentation Design',
     description:
       'Professional pitch decks and presentations that communicate ideas clearly and confidently.',
-    icon: '/chart.png',
+    icon: assetPath('/chart.png'),
   },
   {
     title: 'Marketing Assets',
     description:
       'Consistent visual materials that support growth across digital and print channels.',
-    icon: '/activity.png',
+    icon: assetPath('/activity.png'),
   },
 ]
 

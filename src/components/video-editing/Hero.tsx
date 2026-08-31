@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { assetPath } from '@/lib/paths'
 import { useEffect, useRef } from 'react'
 import '../../styles/video-editing/hero.css'
 
@@ -100,7 +101,7 @@ export default function Hero() {
   </a>
 
   <a
-    href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume/video-editor-resume.pdf`}
+    href={assetPath('/resume/video-editor-resume.pdf')}
     target="_blank"
     rel="noopener noreferrer"
     className="btn-secondary"

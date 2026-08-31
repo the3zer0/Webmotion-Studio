@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 import { motion } from 'framer-motion'
 
@@ -322,7 +323,7 @@ export default function Studio() {
             >
 
               <Image
-                src="/resume/gm.png"
+                src={assetPath('/resume/gm.png')}
                 alt="Webmotion Team"
                 width={1023}
                 height={1537}

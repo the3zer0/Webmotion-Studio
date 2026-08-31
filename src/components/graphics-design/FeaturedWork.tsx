@@ -2,109 +2,110 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+import { assetPath, sitePath } from '@/lib/paths'
 
 const projects = [
   // LOGO DESIGN
   {
     title: 'Assassin',
     category: 'Logo Design',
-    image: '/graphics-project/logos/assassin.png',
+    image: assetPath('/graphics-project/logos/assassin.png'),
   },
   {
     title: 'Bonko Cleaners',
     category: 'Logo Design',
-    image: '/graphics-project/logos/bonko-cleaners.png',
+    image: assetPath('/graphics-project/logos/bonko-cleaners.png'),
   },
   {
     title: 'Hornet',
     category: 'Logo Design',
-    image: '/graphics-project/logos/hornet.png',
+    image: assetPath('/graphics-project/logos/hornet.png'),
   },
   {
     title: 'Community Links',
     category: 'Logo Design',
-    image: '/graphics-project/logos/community-links.png',
+    image: assetPath('/graphics-project/logos/community-links.png'),
   },
   {
     title: 'Haus Of Holders',
     category: 'Logo Design',
-    image: '/graphics-project/logos/haus-of-holders.png',
+    image: assetPath('/graphics-project/logos/haus-of-holders.png'),
   },
   {
     title: 'Inclusion Army',
     category: 'Logo Design',
-    image: '/graphics-project/logos/inclusion-army.png',
+    image: assetPath('/graphics-project/logos/inclusion-army.png'),
   },
   {
     title: 'L Logo',
     category: 'Logo Design',
-    image: '/graphics-project/logos/l-logo.png',
+    image: assetPath('/graphics-project/logos/l-logo.png'),
   },
   {
     title: 'Mr Icon',
     category: 'Logo Design',
-    image: '/graphics-project/logos/mr-icon.png',
+    image: assetPath('/graphics-project/logos/mr-icon.png'),
   },
   {
     title: 'Mrittika Builders Ltd',
     category: 'Logo Design',
-    image: '/graphics-project/logos/mrittika-builders-ltd.png',
+    image: assetPath('/graphics-project/logos/mrittika-builders-ltd.png'),
   },
   {
     title: 'Roof Of The World',
     category: 'Logo Design',
-    image: '/graphics-project/logos/roof-of-the-world.png',
+    image: assetPath('/graphics-project/logos/roof-of-the-world.png'),
   },
 
   // PRINT DESIGN
   {
     title: 'Book Cover Collection',
     category: 'Print Design',
-    image: '/graphics-project/print-design/book-cover-collection.jpg',
+    image: assetPath('/graphics-project/print-design/book-cover-collection.jpg'),
   },
   {
     title: 'BUET Admission Guide',
     category: 'Print Design',
-    image: '/graphics-project/print-design/buet-admission-guide.jpg',
+    image: assetPath('/graphics-project/print-design/buet-admission-guide.jpg'),
   },
   {
     title: 'Certificate Designs',
     category: 'Print Design',
-    image: '/graphics-project/print-design/certificate-designs.jpg',
+    image: assetPath('/graphics-project/print-design/certificate-designs.jpg'),
   },
   {
     title: 'Dhaka University Guide',
     category: 'Print Design',
-    image: '/graphics-project/print-design/dhaka-university-guide.jpg',
+    image: assetPath('/graphics-project/print-design/dhaka-university-guide.jpg'),
   },
   {
     title: 'Promotional Creatives',
     category: 'Print Design',
-    image: '/graphics-project/print-design/promotional-creatives.jpg',
+    image: assetPath('/graphics-project/print-design/promotional-creatives.jpg'),
   },
 
   // SOCIAL MEDIA
   {
     title: 'Social Media Posts',
     category: 'Social Media Design',
-    image: '/graphics-project/print-design/social-media-posts.jpg',
+    image: assetPath('/graphics-project/print-design/social-media-posts.jpg'),
   },
 
   // THUMBNAILS
   {
     title: "AR Khalifa's Method",
     category: 'Thumbnail Design',
-    image: '/graphics-project/thumbnail/ar-khalifas-method.jpg',
+    image: assetPath('/graphics-project/thumbnail/ar-khalifas-method.jpg'),
   },
   {
     title: 'Partial Fraction',
     category: 'Thumbnail Design',
-    image: '/graphics-project/thumbnail/partial.jpg',
+    image: assetPath('/graphics-project/thumbnail/partial.jpg'),
   },
   {
     title: 'Reactions Endgame',
     category: 'Thumbnail Design',
-    image: '/graphics-project/thumbnail/reactions.jpg',
+    image: assetPath('/graphics-project/thumbnail/reactions.jpg'),
   },
 ]
 
@@ -259,7 +260,7 @@ export default function FeaturedWork() {
           </p>
 
           <a
-            href="/contact"
+            href={sitePath('/#contact')}
             className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-[#ff6b35] to-[#2563eb] text-white font-semibold hover:scale-105 transition"
           >
             Start Your Project →

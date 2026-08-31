@@ -4,6 +4,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { assetPath } from '@/lib/paths'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -11,25 +12,25 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'Instagram',
-      icon: '/instagram.png',
+      icon: assetPath('/instagram.png'),
       href: 'https://www.instagram.com/webmotionstudio_/',
     },
 
     {
       name: 'Facebook',
-      icon: '/facebook.png',
+      icon: assetPath('/facebook.png'),
       href: 'https://www.facebook.com/webmotionofficial',
     },
 
     {
       name: 'LinkedIn',
-      icon: '/linkedin.png',
+      icon: assetPath('/linkedin.png'),
       href: 'https://www.linkedin.com/in/webmotionstudio1/',
     },
 
     {
       name: 'YouTube',
-      icon: '/youtube.png',
+      icon: assetPath('/youtube.png'),
       href: 'https://www.youtube.com/channel/UCxC_a3VNFhTT5zDP1F_pxsw',
     },
   ]

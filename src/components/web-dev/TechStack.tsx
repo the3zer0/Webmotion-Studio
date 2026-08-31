@@ -3,33 +3,34 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import { assetPath } from '@/lib/paths'
 
 const techStacks = {
   frontend: [
     {
       name: 'Next.js',
       description: 'Production-Ready React Framework',
-      icon: '/web/nextjs.svg',
+      icon: assetPath('/web/nextjs.svg'),
     },
     {
       name: 'React',
       description: 'Interactive User Interfaces',
-      icon: '/web/react.svg',
+      icon: assetPath('/web/react.svg'),
     },
     {
       name: 'TypeScript',
       description: 'Type-Safe Development',
-      icon: '/web/typescript.svg',
+      icon: assetPath('/web/typescript.svg'),
     },
     {
       name: 'Tailwind CSS',
       description: 'Utility-First Styling',
-      icon: '/web/tailwind-css.svg',
+      icon: assetPath('/web/tailwind-css.svg'),
     },
     {
       name: 'Framer Motion',
       description: 'Smooth UI Animations',
-      icon: '/web/framer.svg',
+      icon: assetPath('/web/framer.svg'),
     },
   ],
 
@@ -37,22 +38,22 @@ const techStacks = {
     {
       name: 'Node.js',
       description: 'Scalable Backend Development',
-      icon: '/web/node-js.svg',
+      icon: assetPath('/web/node-js.svg'),
     },
     {
       name: 'Express.js',
       description: 'Fast & Flexible APIs',
-      icon: '/web/express-js.svg',
+      icon: assetPath('/web/express-js.svg'),
     },
     {
       name: 'REST API',
       description: 'Custom API Integration',
-      icon: '/web/rest-api.svg',
+      icon: assetPath('/web/rest-api.svg'),
     },
     {
       name: 'Authentication',
       description: 'Secure User Systems',
-      icon: '/web/authentication.svg',
+      icon: assetPath('/web/authentication.svg'),
     },
   ],
 
@@ -60,22 +61,22 @@ const techStacks = {
     {
       name: 'MongoDB',
       description: 'Modern NoSQL Database',
-      icon: '/web/mongodb.svg',
+      icon: assetPath('/web/mongodb.svg'),
     },
     {
       name: 'PostgreSQL',
       description: 'Relational Database',
-      icon: '/web/postgresql.svg',
+      icon: assetPath('/web/postgresql.svg'),
     },
     {
       name: 'Firebase',
       description: 'Realtime Backend Services',
-      icon: '/web/firebase.svg',
+      icon: assetPath('/web/firebase.svg'),
     },
     {
       name: 'Supabase',
       description: 'Open Source Backend Platform',
-      icon: '/web/icons8-supabase-240.png',
+      icon: assetPath('/web/icons8-supabase-240.png'),
     },
   ],
 
@@ -83,22 +84,22 @@ const techStacks = {
     {
       name: 'Vercel',
       description: 'Modern Hosting Platform',
-      icon: '/web/vercel.svg',
+      icon: assetPath('/web/vercel.svg'),
     },
     {
       name: 'GitHub',
       description: 'Version Control & Collaboration',
-      icon: '/web/github.svg',
+      icon: assetPath('/web/github.svg'),
     },
     {
       name: 'Cloudflare',
       description: 'Performance & Security',
-      icon: '/web/cloudflare.svg',
+      icon: assetPath('/web/cloudflare.svg'),
     },
     {
       name: 'Domain Setup',
       description: 'Launch Ready Websites',
-      icon: '/web/domain.svg',
+      icon: assetPath('/web/domain.svg'),
     },
   ],
 }

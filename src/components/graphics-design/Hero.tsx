@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { assetPath } from '@/lib/paths'
 
 const stats = [
 {
@@ -120,7 +121,7 @@ return ( <section id="about" className="relative overflow-hidden bg-[#111111]"> 
   </a>
 
   <a
-    href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume/graphics-designer-resume.pdf`}
+    href={assetPath('/resume/graphics-designer-resume.pdf')}
     target="_blank"
     rel="noopener noreferrer"
     className="
