@@ -43,8 +43,8 @@ export default function FloatingWhatsApp() {
           inset-0
           rounded-full
           bg-gradient-to-r
-          from-[#ff6b35]/30
-          to-[#2563eb]/30
+          from-[#FF6B35]/30
+          to-[#FF6B35]/30
           blur-md
         "
       />
@@ -80,10 +80,10 @@ export default function FloatingWhatsApp() {
           border-white/10
 
           bg-gradient-to-br
-          from-[#ff6b35]
-          to-[#2563eb]
+          from-[#FF6B35]
+          to-[#FF6B35]
 
-          shadow-[0_10px_35px_rgba(255,107,53,0.35)]
+          shadow-[0_10px_35px_rgba(255,43,43,0.35)]
 
           transition-all
           duration-300
@@ -138,7 +138,7 @@ export default function FloatingWhatsApp() {
             border
             border-white/10
 
-            bg-[#111111]/95
+            bg-[#151515]/95
 
             px-4
             py-3
@@ -186,7 +186,7 @@ export default function FloatingWhatsApp() {
 
               border-white/10
 
-              bg-[#111111]
+              bg-[#151515]
             "
           />
         </motion.div>
@@ -222,8 +222,8 @@ export default function FloatingWhatsApp() {
             rounded-full
 
             bg-gradient-to-r
-            from-[#ff6b35]
-            to-[#2563eb]
+            from-[#FF6B35]
+            to-[#FF6B35]
           "
 
           style={{

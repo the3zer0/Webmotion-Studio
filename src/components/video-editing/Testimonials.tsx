@@ -34,7 +34,7 @@ export default function Testimonials() {
           transition={{ duration: 0.7 }}
           className="text-center mb-20"
         >
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Testimonials
           </p>
 
@@ -72,8 +72,8 @@ export default function Testimonials() {
                 backdrop-blur-sm
                 transition-all
                 duration-300
-                hover:border-[#ff6b35]/40
-                hover:shadow-[0_0_50px_rgba(255,107,53,0.18)]
+                hover:border-[#FF6B35]/40
+                hover:shadow-[0_0_50px_rgba(255,43,43,0.18)]
               "
             >
               {/* Glow Effect */}
@@ -87,8 +87,8 @@ export default function Testimonials() {
                   transition-opacity
                   duration-500
                   bg-gradient-to-br
-                  from-[#ff6b35]/5
-                  to-[#2563eb]/5
+                  from-[#FF6B35]/5
+                  to-[#FF6B35]/5
                   pointer-events-none
                 "
               />
@@ -108,7 +108,7 @@ export default function Testimonials() {
                 {[...Array(5)].map((_, i) => (
                   <span
                     key={i}
-                    className="text-[#2563eb] text-lg"
+                    className="text-[#FF6B35] text-lg"
                   >
                     ★
                   </span>
@@ -126,8 +126,8 @@ export default function Testimonials() {
                     h-12
                     rounded-full
                     bg-gradient-to-br
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     flex
                     items-center
                     justify-center

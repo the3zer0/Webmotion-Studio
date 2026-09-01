@@ -25,7 +25,7 @@ export default function TheStory() {
             {storyParagraphs.map((item) => (
               <div
                 key={item.title}
-                className="border-l-2 border-[#ff6b35]/40 pl-6"
+                className="border-l-2 border-[#FF6B35]/40 pl-6"
               >
                 <h3 className="text-3xl font-bold text-white mb-4">
                   {item.title}
@@ -40,7 +40,7 @@ export default function TheStory() {
 
           <div className="space-y-6">
             <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
-              <span className="text-[#2563eb] text-sm tracking-widest">
+              <span className="text-[#FF6B35] text-sm tracking-widest">
                 01
               </span>
 
@@ -54,7 +54,7 @@ export default function TheStory() {
             </div>
 
             <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
-              <span className="text-[#2563eb] text-sm tracking-widest">
+              <span className="text-[#FF6B35] text-sm tracking-widest">
                 02
               </span>
 
@@ -68,7 +68,7 @@ export default function TheStory() {
             </div>
 
             <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
-              <span className="text-[#2563eb] text-sm tracking-widest">
+              <span className="text-[#FF6B35] text-sm tracking-widest">
                 03
               </span>
 

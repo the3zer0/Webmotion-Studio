@@ -9,9 +9,9 @@ export default function NotFound() {
 
       {/* Background Glow */}
 
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] bg-[#ff6b35]/10 blur-[220px]" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] bg-[#FF6B35]/10 blur-[220px]" />
 
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#2563eb]/10 blur-[180px]" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#FF6B35]/10 blur-[180px]" />
 
       {/* Floating Particles */}
 
@@ -26,7 +26,7 @@ export default function NotFound() {
             duration: 3 + i,
             repeat: Infinity,
           }}
-          className="absolute w-2 h-2 rounded-full bg-gradient-to-r from-[#ff6b35] to-[#2563eb]"
+          className="absolute w-2 h-2 rounded-full bg-gradient-to-r from-[#FF6B35] to-[#FF6B35]"
           style={{
             left: `${10 + i * 12}%`,
             top: `${20 + (i % 4) * 18}%`,
@@ -57,9 +57,9 @@ export default function NotFound() {
             font-black
             leading-none
             bg-gradient-to-r
-            from-[#ff6b35]
+            from-[#FF6B35]
             via-white
-            to-[#2563eb]
+            to-[#FF6B35]
             bg-clip-text
             text-transparent
           "
@@ -136,14 +136,14 @@ export default function NotFound() {
               py-4
               rounded-full
               bg-gradient-to-r
-              from-[#ff6b35]
-              to-[#2563eb]
+              from-[#FF6B35]
+              to-[#FF6B35]
               text-white
               font-semibold
               hover:scale-105
               transition-all
               duration-300
-              shadow-[0_0_30px_rgba(255,107,53,0.25)]
+              shadow-[0_0_30px_rgba(255,43,43,0.25)]
             "
           >
             Return Home
@@ -160,7 +160,7 @@ export default function NotFound() {
               bg-white/[0.03]
               text-white
               font-semibold
-              hover:border-[#ff6b35]/30
+              hover:border-[#FF6B35]/30
               transition-all
               duration-300
             "

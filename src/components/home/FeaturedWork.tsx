@@ -100,7 +100,7 @@ export default function Portfolio() {
           -translate-x-1/2
           h-[700px]
           w-[700px]
-          bg-[#ff6b35]/10
+          bg-[#FF6B35]/10
           blur-[180px]
         "
       />
@@ -133,7 +133,7 @@ export default function Portfolio() {
               text-sm
               uppercase
               tracking-[0.3em]
-              text-[#2563eb]
+              text-[#FF6B35]
             "
           >
             Featured Work
@@ -220,7 +220,7 @@ export default function Portfolio() {
                   bg-white/[0.03]
                   transition-all
                   duration-300
-                  hover:border-[#ff6b35]/40
+                  hover:border-[#FF6B35]/40
                 "
               >
 
@@ -277,8 +277,8 @@ export default function Portfolio() {
                         justify-center
                         rounded-2xl
                         bg-gradient-to-r
-                        from-[#ff6b35]
-                        to-[#2563eb]
+                        from-[#FF6B35]
+                        to-[#FF6B35]
                       "
                     >
 
@@ -308,8 +308,8 @@ export default function Portfolio() {
                       gap-2
                       rounded-full
                       border
-                      border-[#ff6b35]/20
-                      bg-[#ff6b35]/10
+                      border-[#FF6B35]/20
+                      bg-[#FF6B35]/10
                       px-3
                       py-2
                     "
@@ -330,7 +330,7 @@ export default function Portfolio() {
                         font-semibold
                         uppercase
                         tracking-[0.25em]
-                        text-[#ff6b35]
+                        text-[#FF6B35]
                       "
                     >
 
@@ -349,7 +349,7 @@ export default function Portfolio() {
                       font-bold
                       text-white
                       transition
-                      group-hover:text-[#ff6b35]
+                      group-hover:text-[#FF6B35]
                     "
                   >
 
@@ -384,11 +384,11 @@ export default function Portfolio() {
 
                           className="
                             rounded-full
-                            bg-[#ff6b35]/10
+                            bg-[#FF6B35]/10
                             px-3
                             py-1
                             text-xs
-                            text-[#ff6b35]
+                            text-[#FF6B35]
                           "
                         >
 
@@ -408,7 +408,7 @@ export default function Portfolio() {
                       items-center
                       gap-2
                       font-semibold
-                      text-[#2563eb]
+                      text-[#FF6B35]
                     "
                   >
 
@@ -453,14 +453,14 @@ export default function Portfolio() {
               gap-3
               rounded-full
               border
-              border-[#ff6b35]
+              border-[#FF6B35]
               px-8
               py-4
               font-semibold
-              text-[#ff6b35]
+              text-[#FF6B35]
               transition-all
               duration-300
-              hover:bg-[#ff6b35]/10
+              hover:bg-[#FF6B35]/10
             "
           >
 

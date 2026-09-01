@@ -29,13 +29,13 @@ export default function FAQ({
   return (
     <section
       id="faq"
-      className="py-32 px-6 bg-[#111111]"
+      className="py-32 px-6 bg-[#151515]"
     >
       <div className="max-w-4xl mx-auto">
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             FAQ
           </p>
 

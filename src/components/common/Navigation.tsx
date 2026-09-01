@@ -141,11 +141,11 @@ export default function Navigation() {
 
                 ?
 
-                'border-[#ff6b35]/20 bg-[#111111]/85 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.45)]'
+                'border-[#FF6B35]/20 bg-[#151515]/85 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.45)]'
 
                 :
 
-                'border-white/10 bg-[#111111]/55 backdrop-blur-lg'
+                'border-white/10 bg-[#151515]/55 backdrop-blur-lg'
 
             }
 
@@ -175,7 +175,7 @@ export default function Navigation() {
 
             >
 
-              <span className="text-[#ff6b35]">
+              <span className="text-[#FF6B35]">
 
                 Webmotion
 
@@ -241,7 +241,7 @@ export default function Navigation() {
 
                   transition-all
 
-                  hover:text-[#ff6b35]
+                  hover:text-[#FF6B35]
 
                 "
 
@@ -329,7 +329,7 @@ export default function Navigation() {
 
                             hover:bg-white/5
 
-                            hover:text-[#ff6b35]
+                            hover:text-[#FF6B35]
 
                           "
 
@@ -360,7 +360,7 @@ export default function Navigation() {
 
                 text-white
 
-                hover:text-[#ff6b35]
+                hover:text-[#FF6B35]
 
                 transition
 
@@ -382,7 +382,7 @@ export default function Navigation() {
 
                 text-white
 
-                hover:text-[#ff6b35]
+                hover:text-[#FF6B35]
 
                 transition
 
@@ -404,7 +404,7 @@ export default function Navigation() {
 
                 text-white
 
-                hover:text-[#ff6b35]
+                hover:text-[#FF6B35]
 
                 transition
 
@@ -428,9 +428,9 @@ export default function Navigation() {
 
                 bg-gradient-to-r
 
-                from-[#ff6b35]
+                from-[#FF6B35]
 
-                to-[#2563eb]
+                to-[#FF6B35]
 
                 px-7
 
@@ -446,7 +446,7 @@ export default function Navigation() {
 
                 hover:scale-105
 
-                hover:shadow-[0_0_30px_rgba(255,107,53,0.35)]
+                hover:shadow-[0_0_30px_rgba(255,43,43,0.35)]
 
               "
 
@@ -531,7 +531,7 @@ export default function Navigation() {
 
                 border-white/10
 
-                bg-[#111111]/95
+                bg-[#151515]/95
 
                 backdrop-blur-xl
 
@@ -574,7 +574,7 @@ export default function Navigation() {
 
                         text-white
 
-                        hover:text-[#ff6b35]
+                        hover:text-[#FF6B35]
 
                       "
 
@@ -635,9 +635,9 @@ export default function Navigation() {
 
                     bg-gradient-to-r
 
-                    from-[#ff6b35]
+                    from-[#FF6B35]
 
-                    to-[#2563eb]
+                    to-[#FF6B35]
 
                     px-5
 

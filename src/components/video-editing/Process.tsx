@@ -32,7 +32,7 @@ export default function Process() {
     <section className="py-32 px-6 bg-[#0a0a0a] overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Process
           </p>
 
@@ -47,7 +47,7 @@ export default function Process() {
         </div>
 
         <div className="relative">
-          <div className="hidden lg:block absolute top-12 left-0 w-full h-px bg-gradient-to-r from-[#ff6b35]/0 via-[#ff6b35]/40 to-[#2563eb]/0" />
+          <div className="hidden lg:block absolute top-12 left-0 w-full h-px bg-gradient-to-r from-[#FF6B35]/0 via-[#FF6B35]/40 to-[#FF6B35]/0" />
 
           <div className="grid lg:grid-cols-4 gap-8">
             {steps.map((step) => (
@@ -61,20 +61,20 @@ export default function Process() {
                     h-24
                     rounded-full
                     border
-                    border-[#ff6b35]/30
+                    border-[#FF6B35]/30
                     bg-[#1f1f1f]
                     flex
                     items-center
                     justify-center
                     text-3xl
                     font-bold
-                    text-[#ff6b35]
+                    text-[#FF6B35]
                     mx-auto
                     mb-8
                     transition-all
                     duration-300
                     group-hover:scale-110
-                    group-hover:shadow-[0_0_40px_rgba(255,107,53,0.25)]
+                    group-hover:shadow-[0_0_40px_rgba(255,43,43,0.25)]
                   "
                 >
                   {step.number}
@@ -91,7 +91,7 @@ export default function Process() {
                     text-center
                     transition-all
                     duration-300
-                    group-hover:border-[#ff6b35]/40
+                    group-hover:border-[#FF6B35]/40
                   "
                 >
                   <h3 className="text-2xl font-semibold text-white mb-4">

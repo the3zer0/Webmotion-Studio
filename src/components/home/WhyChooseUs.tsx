@@ -316,9 +316,9 @@ export default function Studio() {
                 overflow-hidden
                 rounded-[2rem]
                 border
-                border-[#ff6b35]/20
+                border-[#FF6B35]/20
                 bg-white/[0.03]
-                shadow-[0_0_40px_rgba(255,107,53,0.08)]
+                shadow-[0_0_40px_rgba(255,43,43,0.08)]
               "
             >
 

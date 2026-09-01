@@ -93,9 +93,9 @@ export default function Contact({
   return (
     <section
       id="contact"
-      className="relative py-32 px-6 bg-[#111111] overflow-hidden"
+      className="relative py-32 px-6 bg-[#151515] overflow-hidden"
     >
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#ff6b35]/10 blur-[180px]" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#FF6B35]/10 blur-[180px]" />
 
       <div className="max-w-5xl mx-auto relative z-10">
 
@@ -122,7 +122,7 @@ export default function Contact({
 
           className="text-center mb-12"
         >
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Contact
           </p>
 
@@ -191,7 +191,7 @@ export default function Contact({
                   text-white
                   placeholder:text-zinc-500
                   outline-none
-                  focus:border-[#ff6b35]
+                  focus:border-[#FF6B35]
                 "
               />
 
@@ -211,7 +211,7 @@ export default function Contact({
                   text-white
                   placeholder:text-zinc-500
                   outline-none
-                  focus:border-[#ff6b35]
+                  focus:border-[#FF6B35]
                 "
               />
 
@@ -233,7 +233,7 @@ export default function Contact({
                 text-white
                 placeholder:text-zinc-500
                 outline-none
-                focus:border-[#ff6b35]
+                focus:border-[#FF6B35]
               "
             />
 
@@ -259,35 +259,35 @@ export default function Contact({
                   border-white/10
                   text-white
                   outline-none
-                  focus:border-[#ff6b35]
+                  focus:border-[#FF6B35]
                 "
               >
 
                 <option
                   value=""
                   disabled
-                  className="bg-[#111111]"
+                  className="bg-[#151515]"
                 >
                   Select Service
                 </option>
 
                 <option
                   value="graphics-design"
-                  className="bg-[#111111]"
+                  className="bg-[#151515]"
                 >
                   Graphics Design
                 </option>
 
                 <option
                   value="video-editing"
-                  className="bg-[#111111]"
+                  className="bg-[#151515]"
                 >
                   Video Editing
                 </option>
 
                 <option
                   value="web-development"
-                  className="bg-[#111111]"
+                  className="bg-[#151515]"
                 >
                   Web Development
                 </option>
@@ -296,7 +296,7 @@ export default function Contact({
 
                 <option
                   value="custom-package"
-                  className="bg-[#111111]"
+                  className="bg-[#151515]"
                 >
                   Custom Package
                 </option>
@@ -340,7 +340,7 @@ export default function Contact({
                 placeholder:text-zinc-500
                 outline-none
                 resize-none
-                focus:border-[#ff6b35]
+                focus:border-[#FF6B35]
               "
             />
 
@@ -356,8 +356,8 @@ export default function Contact({
                 py-4
                 rounded-xl
                 bg-gradient-to-r
-                from-[#ff6b35]
-                to-[#2563eb]
+                from-[#FF6B35]
+                to-[#FF6B35]
                 text-black
                 font-semibold
                 transition-all
@@ -386,10 +386,10 @@ export default function Contact({
 
             <Mail
               size={24}
-              className="mx-auto text-[#ff6b35] mb-4"
+              className="mx-auto text-[#FF6B35] mb-4"
             />
 
-            <p className="text-xs uppercase tracking-[0.25em] text-[#2563eb] mb-2">
+            <p className="text-xs uppercase tracking-[0.25em] text-[#FF6B35] mb-2">
               Email
             </p>
 
@@ -403,10 +403,10 @@ export default function Contact({
 
             <MessageCircle
               size={24}
-              className="mx-auto text-[#ff6b35] mb-4"
+              className="mx-auto text-[#FF6B35] mb-4"
             />
 
-            <p className="text-xs uppercase tracking-[0.25em] text-[#2563eb] mb-2">
+            <p className="text-xs uppercase tracking-[0.25em] text-[#FF6B35] mb-2">
               WhatsApp
             </p>
 
@@ -428,10 +428,10 @@ export default function Contact({
 
             <Instagram
               size={24}
-              className="mx-auto text-[#ff6b35] mb-4"
+              className="mx-auto text-[#FF6B35] mb-4"
             />
 
-            <p className="text-xs uppercase tracking-[0.25em] text-[#2563eb] mb-2">
+            <p className="text-xs uppercase tracking-[0.25em] text-[#FF6B35] mb-2">
               Instagram
             </p>
 
@@ -445,10 +445,10 @@ export default function Contact({
 
             <Clock3
               size={24}
-              className="mx-auto text-[#ff6b35] mb-4"
+              className="mx-auto text-[#FF6B35] mb-4"
             />
 
-            <p className="text-xs uppercase tracking-[0.25em] text-[#2563eb] mb-2">
+            <p className="text-xs uppercase tracking-[0.25em] text-[#FF6B35] mb-2">
               Response Time
             </p>
 

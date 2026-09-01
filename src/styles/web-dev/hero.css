@@ -18,7 +18,7 @@
 
   background:radial-gradient(
     circle,
-    rgba(255,107,53,.18),
+    rgba(255,43,43,.18),
     transparent 70%
   );
 
@@ -55,7 +55,7 @@
 }
 
 .web-tag{
-  color:#2563eb;
+  color:#FF6B35;
 
   font-size:.85rem;
 
@@ -81,11 +81,11 @@
 
   background:linear-gradient(
     90deg,
-    rgba(255,107,53,.2),
+    rgba(255,43,43,.2),
     rgba(37,99,235,.2)
   );
 
-  border:1px solid rgba(255,107,53,.3);
+  border:1px solid rgba(255,43,43,.3);
 }
 
 .web-badge p{
@@ -113,8 +113,8 @@
 
   background:linear-gradient(
     90deg,
-    #ff6b35,
-    #2563eb
+    #FF6B35,
+    #FF6B35
   );
 
   -webkit-background-clip:text;
@@ -181,11 +181,11 @@
 
   background:linear-gradient(
     90deg,
-    #ff6b35,
-    #2563eb
+    #FF6B35,
+    #FF6B35
   );
 
-  box-shadow:0 0 35px rgba(255,107,53,.35);
+  box-shadow:0 0 35px rgba(255,43,43,.35);
 }
 
 .btn-secondary{
@@ -215,7 +215,7 @@
 .web-stat h3{
   font-size:2rem;
 
-  color:#ff6b35;
+  color:#FF6B35;
 }
 
 .web-stat p{
@@ -233,7 +233,7 @@
 
   background:rgba(255,255,255,.03);
 
-  box-shadow:0 0 50px rgba(255,107,53,.12);
+  box-shadow:0 0 50px rgba(255,43,43,.12);
 }
 
 .browser-top{
@@ -289,7 +289,7 @@
 }
 
 .project-card p{
-  color:#2563eb;
+  color:#FF6B35;
 
   font-size:.85rem;
 
@@ -317,7 +317,7 @@
 
   margin-top:20px;
 
-  color:#2563eb;
+  color:#FF6B35;
 
   text-decoration:none;
 

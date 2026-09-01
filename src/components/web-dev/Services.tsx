@@ -46,12 +46,12 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="py-32 px-6 bg-[#111111]"
+      className="py-32 px-6 bg-[#151515]"
     >
       <div className="max-w-7xl mx-auto">
 
         <div className="text-center mb-20">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Services
           </p>
 
@@ -76,9 +76,9 @@ export default function Services() {
                 border
                 border-white/10
                 bg-white/[0.03]
-                hover:border-[#ff6b35]/40
+                hover:border-[#FF6B35]/40
                 hover:-translate-y-2
-                hover:shadow-[0_0_50px_rgba(255,107,53,0.12)]
+                hover:shadow-[0_0_50px_rgba(255,43,43,0.12)]
                 transition-all
                 duration-300
               "
@@ -89,8 +89,8 @@ export default function Services() {
                   h-16
                   rounded-2xl
                   bg-gradient-to-br
-                  from-[#ff6b35]
-                  to-[#2563eb]
+                  from-[#FF6B35]
+                  to-[#FF6B35]
                   flex
                   items-center
                   justify-center

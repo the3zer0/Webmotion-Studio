@@ -121,7 +121,7 @@ export default function TechStack() {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Technology Stack
           </p>
 
@@ -172,7 +172,7 @@ export default function TechStack() {
                 transition-all duration-300
                 ${
                   activeTab === tab.id
-                    ? 'bg-[#ff6b35] text-black font-semibold'
+                    ? 'bg-[#FF6B35] text-black font-semibold'
                     : 'bg-white/5 text-zinc-400'
                 }
               `}
@@ -195,9 +195,9 @@ export default function TechStack() {
                 border
                 border-white/10
                 bg-white/[0.03]
-                hover:border-[#ff6b35]/40
+                hover:border-[#FF6B35]/40
                 hover:-translate-y-2
-                hover:shadow-[0_0_50px_rgba(255,107,53,0.15)]
+                hover:shadow-[0_0_50px_rgba(255,43,43,0.15)]
                 transition-all
                 duration-300
               "
@@ -208,8 +208,8 @@ export default function TechStack() {
                   h-20
                   rounded-3xl
                   bg-gradient-to-br
-                  from-[#ff6b35]
-                  to-[#2563eb]
+                  from-[#FF6B35]
+                  to-[#FF6B35]
                   flex
                   items-center
                   justify-center
@@ -240,7 +240,7 @@ export default function TechStack() {
         {/* Bottom Stats */}
         <div className="grid md:grid-cols-4 gap-8 mt-24">
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               95+
             </h3>
             <p className="text-zinc-500">
@@ -249,7 +249,7 @@ export default function TechStack() {
           </div>
 
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               100%
             </h3>
             <p className="text-zinc-500">
@@ -258,7 +258,7 @@ export default function TechStack() {
           </div>
 
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               SEO
             </h3>
             <p className="text-zinc-500">
@@ -267,7 +267,7 @@ export default function TechStack() {
           </div>
 
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               Full
             </h3>
             <p className="text-zinc-500">

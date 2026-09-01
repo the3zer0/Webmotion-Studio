@@ -53,7 +53,7 @@
 .video-tag {
   display: block;
 
-  color: #2563eb;
+  color: #FF6B35;
 
   font-size: 0.85rem;
 
@@ -77,8 +77,8 @@
 .video-title span {
   background: linear-gradient(
     90deg,
-    #ff6b35,
-    #2563eb
+    #FF6B35,
+    #FF6B35
   );
 
   -webkit-background-clip: text;
@@ -134,8 +134,8 @@
 .btn-primary {
   background: linear-gradient(
     90deg,
-    #ff6b35,
-    #2563eb
+    #FF6B35,
+    #FF6B35
   );
 
   color: #111;
@@ -178,7 +178,7 @@
 .video-stat h3 {
   font-size: 2rem;
 
-  color: #ff6b35;
+  color: #FF6B35;
 
   margin-bottom: 6px;
 }
@@ -226,8 +226,8 @@
 
   background: linear-gradient(
     135deg,
-    #ff6b35,
-    #2563eb
+    #FF6B35,
+    #FF6B35
   );
 
   color: #111;

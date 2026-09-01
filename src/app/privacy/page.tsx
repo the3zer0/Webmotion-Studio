@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
       {/* Glow */}
 
-      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#ff6b35]/10 blur-[220px] pointer-events-none" />
+      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#FF6B35]/10 blur-[220px] pointer-events-none" />
 
       <div className="relative z-10 max-w-5xl mx-auto">
 
@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 
         <header className="mb-16">
 
-          <p className="text-[#ff6b35] text-sm font-semibold uppercase tracking-[0.4em] mb-5">
+          <p className="text-[#FF6B35] text-sm font-semibold uppercase tracking-[0.4em] mb-5">
 
             Webmotion Studio
 
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
 
                 duration-300
 
-                hover:border-[#ff6b35]/30
+                hover:border-[#FF6B35]/30
 
                 hover:bg-white/[0.05]
               "
@@ -135,13 +135,13 @@ export default function PrivacyPage() {
 
               border
 
-              border-[#ff6b35]/20
+              border-[#FF6B35]/20
 
               bg-gradient-to-r
 
-              from-[#ff6b35]/10
+              from-[#FF6B35]/10
 
-              to-[#2563eb]/10
+              to-[#FF6B35]/10
 
               p-8
             "
@@ -168,11 +168,11 @@ export default function PrivacyPage() {
 
                 mt-5
 
-                text-[#ff6b35]
+                text-[#FF6B35]
 
                 font-semibold
 
-                hover:text-[#2563eb]
+                hover:text-[#FF6B35]
 
                 transition
               "
@@ -220,9 +220,9 @@ export default function PrivacyPage() {
 
               text-zinc-300
 
-              hover:border-[#ff6b35]/30
+              hover:border-[#FF6B35]/30
 
-              hover:text-[#ff6b35]
+              hover:text-[#FF6B35]
 
               transition-all
             "

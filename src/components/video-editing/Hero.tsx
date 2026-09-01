@@ -64,15 +64,15 @@ export default function Hero() {
     py-4
     rounded-full
     bg-gradient-to-r
-    from-[#ff6b35]/20
-    to-[#2563eb]/20
+    from-[#FF6B35]/20
+    to-[#FF6B35]/20
     border
-    border-[#ff6b35]/30
+    border-[#FF6B35]/30
     mt-4
     mb-6
   "
 >
-  <span className="text-[#ff6b35] text-xl">✦</span>
+  <span className="text-[#FF6B35] text-xl">✦</span>
 
   <span className="text-white text-lg font-bold">
     1.5+ Years Experience • 55+ Creative Projects
@@ -143,13 +143,13 @@ export default function Hero() {
               padding: '18px',
               borderRadius: '20px',
               background: 'rgba(255,255,255,0.04)',
-              border: '1px solid rgba(255,107,53,0.2)',
+              border: '1px solid rgba(255,43,43,0.2)',
               backdropFilter: 'blur(10px)',
             }}
           >
             <p
               style={{
-                color: '#2563eb',
+                color: '#FF6B35',
                 fontSize: '12px',
                 letterSpacing: '0.2em',
                 textTransform: 'uppercase',

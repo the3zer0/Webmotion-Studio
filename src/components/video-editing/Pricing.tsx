@@ -77,7 +77,7 @@ export default function Pricing() {
 
         <div className="text-center mb-20">
 
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             VIDEO EDITING PACKAGES
           </p>
 
@@ -85,7 +85,7 @@ export default function Pricing() {
 
             Professional
 
-            <span className="text-[#ff6b35]">
+            <span className="text-[#FF6B35]">
               {' '}Video Editing
             </span>
 
@@ -144,12 +144,12 @@ export default function Pricing() {
 
                 ${
                   pkg.popular
-                    ? 'border-[#ff6b35] bg-[#ff6b35]/5'
+                    ? 'border-[#FF6B35] bg-[#FF6B35]/5'
                     : 'border-white/10 bg-white/[0.03]'
                 }
 
-                hover:border-[#ff6b35]/50
-                hover:shadow-[0_0_40px_rgba(255,107,53,0.15)]
+                hover:border-[#FF6B35]/50
+                hover:shadow-[0_0_40px_rgba(255,43,43,0.15)]
               `}
             >
 
@@ -174,8 +174,8 @@ export default function Pricing() {
                     py-1
                     rounded-full
                     bg-gradient-to-r
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     text-black
                     text-xs
                     font-bold
@@ -193,7 +193,7 @@ export default function Pricing() {
 
                 <div className="flex items-end gap-2 mb-4">
 
-                  <span className="text-[#ff6b35] text-2xl">
+                  <span className="text-[#FF6B35] text-2xl">
                     $
                   </span>
 
@@ -230,7 +230,7 @@ export default function Pricing() {
 
                     <Check
                       size={18}
-                      className="text-[#2563eb] mt-1"
+                      className="text-[#FF6B35] mt-1"
                     />
 
                     {feature}
@@ -258,8 +258,8 @@ export default function Pricing() {
                   py-4
                   rounded-xl
                   bg-gradient-to-r
-                  from-[#ff6b35]
-                  to-[#2563eb]
+                  from-[#FF6B35]
+                  to-[#FF6B35]
                   text-white
                   font-semibold
                   flex
@@ -307,11 +307,11 @@ export default function Pricing() {
             mt-20
             rounded-[2rem]
             border
-            border-[#ff6b35]/20
+            border-[#FF6B35]/20
             bg-gradient-to-r
             from-[#0a0a0a]
             via-[#202020]
-            to-[#111111]
+            to-[#151515]
             p-10
             md:p-14
             relative
@@ -319,13 +319,13 @@ export default function Pricing() {
           "
         >
 
-          <div className="absolute top-0 right-0 w-72 h-72 bg-[#ff6b35]/10 blur-[100px]" />
+          <div className="absolute top-0 right-0 w-72 h-72 bg-[#FF6B35]/10 blur-[100px]" />
 
           <div className="relative z-10 grid lg:grid-cols-2 gap-10 items-center">
 
             <div>
 
-              <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+              <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
                 Custom Package
               </p>
 
@@ -360,8 +360,8 @@ export default function Pricing() {
                   py-4
                   rounded-xl
                   bg-gradient-to-r
-                  from-[#ff6b35]
-                  to-[#2563eb]
+                  from-[#FF6B35]
+                  to-[#FF6B35]
                   text-white
                   font-semibold
                   hover:scale-105

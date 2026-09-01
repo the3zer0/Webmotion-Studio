@@ -53,7 +53,7 @@ return (
 
 
       <div className="mb-16 text-center">
-        <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+        <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
           Featured Work
         </p>
 
@@ -83,9 +83,9 @@ return (
               backdrop-blur-sm
               transition-all
               duration-300
-              hover:border-[#ff6b35]/60
+              hover:border-[#FF6B35]/60
               hover:-translate-y-2
-              hover:shadow-[0_0_40px_rgba(255,107,53,0.15)]
+              hover:shadow-[0_0_40px_rgba(255,43,43,0.15)]
               text-left
             "
           >
@@ -112,7 +112,7 @@ return (
                     w-16
                     h-16
                     rounded-full
-                    bg-[#ff6b35]
+                    bg-[#FF6B35]
                     flex
                     items-center
                     justify-center
@@ -129,7 +129,7 @@ return (
             </div>
 
             <div className="p-6">
-              <span className="text-[#2563eb] text-sm uppercase tracking-wider">
+              <span className="text-[#FF6B35] text-sm uppercase tracking-wider">
                 {project.category}
               </span>
 
@@ -168,7 +168,7 @@ return (
           overflow-hidden
           bg-black
           border
-          border-[#ff6b35]/30
+          border-[#FF6B35]/30
         "
         onClick={(e) => e.stopPropagation()}
       >
@@ -184,7 +184,7 @@ return (
             rounded-full
             bg-black/70
             text-white
-            hover:bg-[#ff6b35]
+            hover:bg-[#FF6B35]
             transition
           "
         >

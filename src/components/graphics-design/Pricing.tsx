@@ -154,7 +154,7 @@ export default function Pricing() {
 
         <div className="text-center mb-16">
 
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             PRICING
           </p>
 
@@ -215,7 +215,7 @@ export default function Pricing() {
                     absolute
                     inset-0
                     rounded-full
-                    bg-[#ff6b35]
+                    bg-[#FF6B35]
                   "
 
                   transition={{
@@ -313,15 +313,15 @@ export default function Pricing() {
 
                     ${
                       pkg.popular
-                        ? 'border-[#ff6b35]'
+                        ? 'border-[#FF6B35]'
                         : 'border-white/10'
                     }
 
                     bg-white/[0.03]
 
-                    hover:border-[#ff6b35]/60
+                    hover:border-[#FF6B35]/60
 
-                    hover:shadow-[0_0_50px_rgba(255,107,53,0.15)]
+                    hover:shadow-[0_0_50px_rgba(255,43,43,0.15)]
                   `}
                 >
 
@@ -334,9 +334,9 @@ export default function Pricing() {
                       transition-all
                       duration-500
                       bg-gradient-to-br
-                      from-[#ff6b35]/10
+                      from-[#FF6B35]/10
                       via-transparent
-                      to-[#2563eb]/5
+                      to-[#FF6B35]/5
                     "
                   />
 
@@ -360,7 +360,7 @@ export default function Pricing() {
                         px-3
                         py-1
                         rounded-full
-                        bg-[#ff6b35]
+                        bg-[#FF6B35]
                         text-black
                         text-xs
                         font-bold
@@ -379,7 +379,7 @@ export default function Pricing() {
                       {pkg.name}
                     </h3>
 
-                    <div className="text-5xl font-bold text-[#ff6b35] mb-8">
+                    <div className="text-5xl font-bold text-[#FF6B35] mb-8">
                       {pkg.price}
                     </div>
 
@@ -397,7 +397,7 @@ export default function Pricing() {
 
                             <Check
                               size={18}
-                              className="text-[#2563eb] mt-1"
+                              className="text-[#FF6B35] mt-1"
                             />
 
                             {feature}
@@ -424,8 +424,8 @@ export default function Pricing() {
                         py-4
                         rounded-xl
                         bg-gradient-to-r
-                        from-[#ff6b35]
-                        to-[#2563eb]
+                        from-[#FF6B35]
+                        to-[#FF6B35]
                         text-white
                         font-semibold
                         flex
@@ -493,7 +493,7 @@ export default function Pricing() {
 
             <div>
 
-              <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+              <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
                 Custom Package
               </p>
 
@@ -529,8 +529,8 @@ export default function Pricing() {
                   py-5
                   rounded-xl
                   bg-gradient-to-r
-                  from-[#ff6b35]
-                  to-[#2563eb]
+                  from-[#FF6B35]
+                  to-[#FF6B35]
                   text-white
                   font-semibold
                   hover:scale-105

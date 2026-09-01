@@ -50,7 +50,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
 
         <div className="text-center mb-20">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Services
           </p>
 
@@ -80,8 +80,8 @@ export default function Services() {
                 transition-all
                 duration-300
                 hover:-translate-y-2
-                hover:border-[#ff6b35]/50
-                hover:shadow-[0_0_40px_rgba(255,107,53,0.15)]
+                hover:border-[#FF6B35]/50
+                hover:shadow-[0_0_40px_rgba(255,43,43,0.15)]
               "
             >
               <div
@@ -90,8 +90,8 @@ export default function Services() {
                   h-16
                   rounded-2xl
                   bg-gradient-to-br
-                  from-[#ff6b35]
-                  to-[#2563eb]
+                  from-[#FF6B35]
+                  to-[#FF6B35]
                   flex
                   items-center
                   justify-center

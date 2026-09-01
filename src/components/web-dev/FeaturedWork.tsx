@@ -28,7 +28,7 @@ export default function FeaturedWork() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-20">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Featured Work
           </p>
 
@@ -56,7 +56,7 @@ export default function FeaturedWork() {
                 border
                 border-white/10
                 bg-white/[0.03]
-                hover:border-[#ff6b35]/40
+                hover:border-[#FF6B35]/40
                 transition-all
                 duration-300
               "
@@ -106,7 +106,7 @@ export default function FeaturedWork() {
 
               {/* Content */}
               <div className="p-6">
-                <p className="text-[#2563eb] text-sm uppercase tracking-[0.2em] mb-2">
+                <p className="text-[#FF6B35] text-sm uppercase tracking-[0.2em] mb-2">
                   {project.category}
                 </p>
 
@@ -158,7 +158,7 @@ export default function FeaturedWork() {
             </div>
 
             <div className="p-8">
-              <p className="text-[#2563eb] uppercase tracking-[0.2em] text-sm mb-3">
+              <p className="text-[#FF6B35] uppercase tracking-[0.2em] text-sm mb-3">
                 {selectedProject.category}
               </p>
 
@@ -180,8 +180,8 @@ export default function FeaturedWork() {
                     py-4
                     rounded-full
                     bg-gradient-to-r
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     text-white
                     font-semibold
                   "

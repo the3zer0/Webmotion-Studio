@@ -146,14 +146,14 @@ export default function FeaturedWork() {
       py-4
       rounded-full
       border
-      border-[#ff6b35]/30
+      border-[#FF6B35]/30
       bg-gradient-to-r
-      from-[#ff6b35]/10
-      to-[#2563eb]/10
+      from-[#FF6B35]/10
+      to-[#FF6B35]/10
       backdrop-blur-xl
     "
   >
-    <span className="text-[#ff6b35] text-lg font-bold">
+    <span className="text-[#FF6B35] text-lg font-bold">
       6+ Years Experienced
     </span>
 
@@ -167,7 +167,7 @@ export default function FeaturedWork() {
 
         {/* HEADING */}
         <div className="text-center mb-16">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Portfolio
           </p>
 
@@ -190,8 +190,8 @@ export default function FeaturedWork() {
               onClick={() => setActiveFilter(filter)}
               className={`px-6 py-3 rounded-full border transition-all duration-300 ${
                 activeFilter === filter
-                  ? 'bg-gradient-to-r from-[#ff6b35] to-[#2563eb] text-white border-transparent'
-                  : 'border-white/10 text-zinc-300 hover:border-[#ff6b35]'
+                  ? 'bg-gradient-to-r from-[#FF6B35] to-[#FF6B35] text-white border-transparent'
+                  : 'border-white/10 text-zinc-300 hover:border-[#FF6B35]'
               }`}
             >
               {filter}
@@ -213,7 +213,7 @@ export default function FeaturedWork() {
                 border
                 border-white/10
                 bg-white/[0.03]
-                hover:border-[#ff6b35]/50
+                hover:border-[#FF6B35]/50
                 hover:-translate-y-2
                 hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)]
                 transition-all
@@ -237,7 +237,7 @@ export default function FeaturedWork() {
               </div>
 
               <div className="p-6">
-                <p className="text-[#2563eb] text-sm uppercase tracking-[0.2em] mb-2">
+                <p className="text-[#FF6B35] text-sm uppercase tracking-[0.2em] mb-2">
                   {project.category}
                 </p>
 
@@ -262,7 +262,7 @@ export default function FeaturedWork() {
 
           <a
             href={sitePath('/#contact')}
-            className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-[#ff6b35] to-[#2563eb] text-white font-semibold hover:scale-105 transition"
+            className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-[#FF6B35] to-[#FF6B35] text-white font-semibold hover:scale-105 transition"
           >
             Start Your Project →
           </a>

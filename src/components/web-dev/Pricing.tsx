@@ -121,7 +121,7 @@ export default function Pricing() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-20">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Package Comparison
           </p>
 
@@ -150,7 +150,7 @@ export default function Pricing() {
                 duration-300
                 ${
                   pkg.badge
-                    ? 'border-[#ff6b35] shadow-[0_0_40px_rgba(255,107,53,0.2)]'
+                    ? 'border-[#FF6B35] shadow-[0_0_40px_rgba(255,43,43,0.2)]'
                     : 'border-white/10'
                 }
                 bg-white/[0.03]
@@ -166,7 +166,7 @@ export default function Pricing() {
                     px-4
                     py-1
                     rounded-b-xl
-                    bg-[#ff6b35]
+                    bg-[#FF6B35]
                     text-black
                     text-xs
                     font-bold
@@ -179,7 +179,7 @@ export default function Pricing() {
               {/* Package Header */}
               <div className="mb-8">
                 <div className="flex items-end gap-1 mb-4">
-                  <span className="text-[#ff6b35] text-xl">
+                  <span className="text-[#FF6B35] text-xl">
                     $
                   </span>
 
@@ -250,8 +250,8 @@ export default function Pricing() {
     py-4
     rounded-xl
     bg-gradient-to-r
-    from-[#ff6b35]
-    to-[#2563eb]
+    from-[#FF6B35]
+    to-[#FF6B35]
     text-white
     font-semibold
     flex
@@ -276,8 +276,8 @@ export default function Pricing() {
             border
             border-white/10
             bg-gradient-to-r
-            from-[#ff6b35]/10
-            to-[#2563eb]/10
+            from-[#FF6B35]/10
+            to-[#FF6B35]/10
             p-10
             text-center
           "
@@ -305,7 +305,7 @@ export default function Pricing() {
               px-8
               py-4
               rounded-full
-              bg-[#ff6b35]
+              bg-[#FF6B35]
               text-black
               font-semibold
               hover:scale-105

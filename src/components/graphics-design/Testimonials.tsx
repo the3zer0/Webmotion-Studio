@@ -23,11 +23,11 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-32 px-6 bg-[#111111] overflow-hidden">
+    <section className="py-32 px-6 bg-[#151515] overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-20">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Testimonials
           </p>
 
@@ -53,22 +53,22 @@ export default function Testimonials() {
                 border
                 border-white/10
                 bg-white/[0.03]
-                hover:border-[#ff6b35]/40
+                hover:border-[#FF6B35]/40
                 hover:-translate-y-2
-                hover:shadow-[0_0_50px_rgba(255,107,53,0.12)]
+                hover:shadow-[0_0_50px_rgba(255,43,43,0.12)]
                 transition-all
                 duration-300
               "
             >
               {/* Glow */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-[#ff6b35]/10 blur-3xl rounded-full" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#FF6B35]/10 blur-3xl rounded-full" />
 
               {/* Stars */}
               <div className="flex gap-1 mb-6">
                 {[...Array(5)].map((_, index) => (
                   <span
                     key={index}
-                    className="text-[#2563eb] text-lg"
+                    className="text-[#FF6B35] text-lg"
                   >
                     ★
                   </span>
@@ -86,8 +86,8 @@ export default function Testimonials() {
                     h-12
                     rounded-full
                     bg-gradient-to-br
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     flex
                     items-center
                     justify-center
@@ -115,7 +115,7 @@ export default function Testimonials() {
         {/* Stats */}
         <div className="grid md:grid-cols-3 gap-8 mt-24">
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               120+
             </h3>
 
@@ -125,7 +125,7 @@ export default function Testimonials() {
           </div>
 
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               35+
             </h3>
 
@@ -135,7 +135,7 @@ export default function Testimonials() {
           </div>
 
           <div className="text-center">
-            <h3 className="text-5xl font-bold text-[#ff6b35] mb-3">
+            <h3 className="text-5xl font-bold text-[#FF6B35] mb-3">
               98%
             </h3>
 

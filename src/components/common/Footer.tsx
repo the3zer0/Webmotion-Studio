@@ -36,7 +36,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="bg-[#111111] border-t border-white/10">
+    <footer className="bg-[#151515] border-t border-white/10">
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
 
@@ -50,7 +50,7 @@ export default function Footer() {
 
             <h2 className="text-5xl font-bold">
 
-              <span className="text-[#ff6b35]">
+              <span className="text-[#FF6B35]">
                 Webmotion
               </span>
 
@@ -80,7 +80,7 @@ export default function Footer() {
 
                   <Link
                     href="/graphics-design"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Graphics Design
                   </Link>
@@ -91,7 +91,7 @@ export default function Footer() {
 
                   <Link
                     href="/video-editing"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Video Editing
                   </Link>
@@ -102,7 +102,7 @@ export default function Footer() {
 
                   <Link
                     href="/web-dev"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Web Development
                   </Link>
@@ -127,7 +127,7 @@ export default function Footer() {
 
                   <Link
                     href="/#about"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     About Us
                   </Link>
@@ -138,7 +138,7 @@ export default function Footer() {
 
                   <Link
                     href="/blog"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Blog
                   </Link>
@@ -149,7 +149,7 @@ export default function Footer() {
 
                   <Link
                     href="/careers"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Careers
                   </Link>
@@ -174,7 +174,7 @@ export default function Footer() {
 
                   <Link
                     href="/privacy"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Privacy Policy
                   </Link>
@@ -185,7 +185,7 @@ export default function Footer() {
 
                   <Link
                     href="/terms"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Terms & Conditions
                   </Link>
@@ -196,7 +196,7 @@ export default function Footer() {
 
                   <Link
                     href="/support"
-                    className="text-zinc-400 hover:text-[#ff6b35] transition"
+                    className="text-zinc-400 hover:text-[#FF6B35] transition"
                   >
                     Support
                   </Link>
@@ -223,7 +223,7 @@ export default function Footer() {
 
             <div>
 
-              <p className="text-[#2563eb] mb-2 font-medium">
+              <p className="text-[#FF6B35] mb-2 font-medium">
                 WhatsApp
               </p>
 
@@ -231,7 +231,7 @@ export default function Footer() {
                 href="https://wa.me/8801805768267"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-zinc-400 hover:text-[#ff6b35]"
+                className="text-zinc-400 hover:text-[#FF6B35]"
               >
                 +8801805768267
               </a>
@@ -240,13 +240,13 @@ export default function Footer() {
 
             <div>
 
-              <p className="text-[#2563eb] mb-2 font-medium">
+              <p className="text-[#FF6B35] mb-2 font-medium">
                 Email
               </p>
 
               <a
                 href="mailto:webmotionstudio1@gmail.com"
-                className="text-zinc-400 hover:text-[#ff6b35]"
+                className="text-zinc-400 hover:text-[#FF6B35]"
               >
                 webmotionstudio1@gmail.com
               </a>
@@ -255,7 +255,7 @@ export default function Footer() {
 
             <div>
 
-              <p className="text-[#2563eb] mb-2 font-medium">
+              <p className="text-[#FF6B35] mb-2 font-medium">
                 Location
               </p>
 
@@ -334,17 +334,17 @@ export default function Footer() {
 
                   border
 
-                  border-[#ff6b35]/20
+                  border-[#FF6B35]/20
 
-                  bg-[#ff6b35]/10
+                  bg-[#FF6B35]/10
 
                   transition-all
 
                   duration-300
 
-                  hover:border-[#ff6b35]/50
+                  hover:border-[#FF6B35]/50
 
-                  hover:bg-[#ff6b35]/20
+                  hover:bg-[#FF6B35]/20
                 "
               >
 

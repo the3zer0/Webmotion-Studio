@@ -13,7 +13,7 @@ export default function CareersPage() {
 
       {/* Glow */}
 
-      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#ff6b35]/10 blur-[220px] pointer-events-none" />
+      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#FF6B35]/10 blur-[220px] pointer-events-none" />
 
       <div className="relative z-10 max-w-5xl mx-auto">
 
@@ -21,7 +21,7 @@ export default function CareersPage() {
 
         <header className="mb-16">
 
-          <p className="text-[#ff6b35] text-sm font-semibold uppercase tracking-[0.4em] mb-5">
+          <p className="text-[#FF6B35] text-sm font-semibold uppercase tracking-[0.4em] mb-5">
 
             Webmotion Studio
 
@@ -49,10 +49,10 @@ export default function CareersPage() {
           className="
             rounded-3xl
             border
-            border-[#ff6b35]/20
+            border-[#FF6B35]/20
             bg-gradient-to-r
-            from-[#ff6b35]/10
-            to-[#2563eb]/10
+            from-[#FF6B35]/10
+            to-[#FF6B35]/10
             p-10
             mb-10
           "
@@ -60,7 +60,7 @@ export default function CareersPage() {
 
           <div className="flex items-center gap-4 mb-6">
 
-            <div className="w-4 h-4 rounded-full bg-[#ff6b35] animate-pulse" />
+            <div className="w-4 h-4 rounded-full bg-[#FF6B35] animate-pulse" />
 
             <p className="text-lg font-semibold">
 
@@ -138,7 +138,7 @@ export default function CareersPage() {
                 "
               >
 
-                <span className="text-[#ff6b35]">
+                <span className="text-[#FF6B35]">
 
                   ✦
 
@@ -197,8 +197,8 @@ export default function CareersPage() {
               className="
                 rounded-full
                 bg-gradient-to-r
-                from-[#ff6b35]
-                to-[#2563eb]
+                from-[#FF6B35]
+                to-[#FF6B35]
                 px-8
                 py-4
                 font-semibold
@@ -222,8 +222,8 @@ export default function CareersPage() {
                 px-8
                 py-4
                 text-zinc-300
-                hover:border-[#ff6b35]/30
-                hover:text-[#ff6b35]
+                hover:border-[#FF6B35]/30
+                hover:text-[#FF6B35]
                 transition-all
               "
             >

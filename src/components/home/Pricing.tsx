@@ -28,7 +28,7 @@ export default function Pricing() {
 return ( <section
    id="pricing"
    className="relative py-32 px-6 bg-[#151515] overflow-hidden"
- > <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#ff6b35]/10 blur-[180px]" />
+ > <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#FF6B35]/10 blur-[180px]" />
 
 
   <div className="max-w-7xl mx-auto relative z-10">
@@ -40,7 +40,7 @@ return ( <section
       transition={{ duration: 0.7 }}
       className="text-center mb-16"
     >
-      <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+      <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
         Pricing
       </p>
 
@@ -84,7 +84,7 @@ return ( <section
           </h3>
 
           <div className="flex items-end gap-1 mb-6">
-            <span className="text-5xl font-bold text-[#ff6b35]">
+            <span className="text-5xl font-bold text-[#FF6B35]">
               ${plan.price}
             </span>
 
@@ -103,8 +103,8 @@ return ( <section
               py-4
               rounded-xl
               bg-gradient-to-r
-              from-[#ff6b35]
-              to-[#2563eb]
+              from-[#FF6B35]
+              to-[#FF6B35]
               text-black
               font-semibold
               transition-all

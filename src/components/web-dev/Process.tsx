@@ -29,12 +29,12 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="py-32 px-6 bg-[#111111] overflow-hidden">
+    <section className="py-32 px-6 bg-[#151515] overflow-hidden">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
         <div className="text-center mb-24">
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Process
           </p>
 
@@ -71,15 +71,15 @@ export default function Process() {
                     mx-auto
                     rounded-full
                     bg-gradient-to-br
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     flex
                     items-center
                     justify-center
                     text-black
                     text-2xl
                     font-bold
-                    shadow-[0_0_40px_rgba(255,107,53,0.25)]
+                    shadow-[0_0_40px_rgba(255,43,43,0.25)]
                   "
                 >
                   {step.number}

@@ -35,11 +35,11 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="relative py-32 px-6 bg-[#111111] overflow-hidden"
+      className="relative py-32 px-6 bg-[#151515] overflow-hidden"
     >
       {/* Background Glow */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#ff6b35]/10 blur-[180px]" />
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#2563eb]/5 blur-[180px]" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#FF6B35]/10 blur-[180px]" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#FF6B35]/5 blur-[180px]" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Heading */}
@@ -50,7 +50,7 @@ export default function Services() {
           transition={{ duration: 0.7 }}
           className="text-center mb-20"
         >
-          <p className="text-[#2563eb] uppercase tracking-[0.3em] text-sm mb-4">
+          <p className="text-[#FF6B35] uppercase tracking-[0.3em] text-sm mb-4">
             Services
           </p>
 
@@ -88,15 +88,15 @@ export default function Services() {
                   p-8
                   rounded-[2rem]
                   border
-                  border-[#ff6b35]/20
+                  border-[#FF6B35]/20
                   bg-gradient-to-br
-                  from-[#ff6b35]/5
+                  from-[#FF6B35]/5
                   to-transparent
                   backdrop-blur-sm
                   overflow-hidden
                   transition-all
                   duration-300
-                  hover:border-[#ff6b35]/50
+                  hover:border-[#FF6B35]/50
                 "
               >
                 {/* Hover Glow */}
@@ -105,7 +105,7 @@ export default function Services() {
                     absolute
                     inset-0
                     bg-gradient-to-br
-                    from-[#ff6b35]/10
+                    from-[#FF6B35]/10
                     to-transparent
                     opacity-0
                     group-hover:opacity-100
@@ -122,7 +122,7 @@ export default function Services() {
                     right-6
                     text-7xl
                     font-bold
-                    text-[#ff6b35]/15
+                    text-[#FF6B35]/15
                   "
                 >
                   {service.number}
@@ -140,8 +140,8 @@ export default function Services() {
                     h-16
                     rounded-2xl
                     bg-gradient-to-br
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     flex
                     items-center
                     justify-center
@@ -169,9 +169,9 @@ export default function Services() {
                     inline-flex
                     items-center
                     gap-2
-                    text-[#ff6b35]
+                    text-[#FF6B35]
                     font-semibold
-                    hover:text-[#2563eb]
+                    hover:text-[#FF6B35]
                     transition-colors
                   "
                 >
@@ -187,8 +187,8 @@ export default function Services() {
                     h-[2px]
                     w-0
                     bg-gradient-to-r
-                    from-[#ff6b35]
-                    to-[#2563eb]
+                    from-[#FF6B35]
+                    to-[#FF6B35]
                     group-hover:w-full
                     transition-all
                     duration-500
@@ -217,9 +217,9 @@ export default function Services() {
               inline-flex
               items-center
               gap-2
-              text-[#ff6b35]
+              text-[#FF6B35]
               font-semibold
-              hover:text-[#2563eb]
+              hover:text-[#FF6B35]
               transition-colors
             "
           >
